@@ -1,0 +1,6 @@
+:root {
+    --font: 'Montserrat';
+    --max-width: 1140px;
+    --hover-transition: 0.2s;
+    --hover-opacity: 0.6;
+}

@@ -1,0 +1,136 @@
+@import url('../vendor/fonts.css');
+@import url('../vendor/normalize.css');
+@import url('../variables/root.css');
+
+.background {
+    background-color: #212121;
+    font-family: var(--font);
+    font-weight: 400;
+}
+.page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    max-width: var(--max-width);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.header__logo {
+    font-weight: 600;
+    font-size: 16px;
+}
+.header__nav-panel {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header__nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    transition: var(--hover-transition);
+}
+.header__nav-link:hover {
+    opacity: var(--hover-opacity);
+}
+.header__link {
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: var(--hover-transition);
+}
+.header__link:hover {
+    opacity: var(--hover-opacity);
+}
+.header__link-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+.main::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    filter: blur(400px);
+    border-radius: 500px 500px 0 0;
+}
+.main__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+.main__textblock {
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.main__title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+.main__subtext {
+    color: #999;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+.main__image {
+    transform: translateY(60px);
+    pointer-events: none;
+}
+
+.models {
+    width: 100%;
+    min-height: 700px;
+    background-color: #F5F5F6;
+}
+.models__container {
+}
+
+.services {
+}
+.services__container {
+}
+
+.faq {
+}
+.faq__container {
+}
+
+.footer {
+}
