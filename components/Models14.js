@@ -33,5 +33,5 @@ function createModel14({
 }
 
 function renderModels14(data) {
-  models14.append(createModel15(data));
+  models14.append(createModel14(data));
 }
