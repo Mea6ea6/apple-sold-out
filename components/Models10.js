@@ -29,7 +29,7 @@ function createModel10({
   modelMemorySecond.textContent = memory_second;
   modelPriceSecond.textContent = price_second;
 
-  return model;
+  return models10;
 }
 
 function renderModels10(data) {
