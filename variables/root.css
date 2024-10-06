@@ -2,5 +2,6 @@
     --font: 'Montserrat';
     --max-width: 1140px;
     --hover-transition: 0.4s;
+    --transition: 0.8s;
     --hover-opacity: 0.6;
 }
