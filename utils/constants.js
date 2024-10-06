@@ -49,7 +49,7 @@ const initialIPhones14 = [
   },
   {
     image: "./images/models/__iphone.png",
-    colors: ["#494a4c", "red", "green"],
+    colors: "#494a4c",
     title: "Plus",
     memory_first: "128 Гб —",
     price_first: "00.000~00.000 ₽",
