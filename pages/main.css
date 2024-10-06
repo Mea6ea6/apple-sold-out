@@ -195,6 +195,7 @@
     width: 172px;
     height: 228px;
     margin: 0 auto;
+    pointer-events: none;
 }
 .model__colors {
     display: flex;
@@ -356,6 +357,7 @@
 .faq__icon {
     width: 32px;
     height: 32px;
+    pointer-events: none;
 }
 .faq__question {
     color: #fff;
@@ -406,7 +408,7 @@
     align-items: center;
     transition: var(--hover-transition);
 }
-.header__link-icon {
+.footer__link-icon {
     margin-right: 4px;
 }
 .footer__anchors {
