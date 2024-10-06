@@ -14,7 +14,7 @@
     <div class="page">
 
         <header class="header">
-            <p class="header__logo">AppleSoldOut</p>
+            <a class="header__logo" href="main">AppleSoldOut</a>
             <nav class="header__nav-panel">
                 <a class="header__nav-link" href="#models">Модели</a>
                 <a class="header__nav-link" href="#services">Услуги</a>
@@ -27,7 +27,7 @@
 
         <main class="content">
 
-            <div class="main">
+            <div class="main" id="main">
                 <div class="main__container">
                     <div class="main__textblock">
                         <h1 class="main__title">Смартфоны Apple</h1>
@@ -237,12 +237,36 @@
             </div>
 
             <div class="faq" id="faq">
-                <div class="faq__container"></div>
+                <div class="faq__container">
+                    <h2 class="faq__title">FAQ</h2>
+                    <ul class="faq__items">
+                        <li class="faq__item">
+                            <img class="faq__icon" src="./images/faq/__bookmark.svg" alt="icon">
+                            <p class="faq__question">“В каких городах вы работаете?”</p>
+                            <p class="faq__text">Наши мастера и офис работают по Москве и облости.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </main>
 
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer__line"></div>
+            <div class="footer__container">
+                <div class="footer__links">
+                    <a class="footer__link" href="#main">AppleSoldOut</a>
+                    <a class="footer__link" href="">
+                        <img class="header__link-icon" src="./images/footer/__telegram.svg" alt="Tel.:">Telegram
+                    </a>
+                </div>
+                <div class="footer__anchors">
+                    <a class="footer__anchor" href="#models">Модели</a>
+                    <a class="footer__anchor" href="#services">Услуги</a>
+                    <a class="footer__anchor" href="#faq">FAQ</a>
+                </div>
+            </div>
+        </footer>
 
     </div>
 
