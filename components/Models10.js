@@ -14,7 +14,7 @@ function createModel10({
 }) {
   const models10 = model10Template.cloneNode(true);
   const modelImage = models10.querySelector(".model__image");
-  const modelColors = models10.querySelector(".model__color");
+  const modelColors = models10.querySelector(".model__colors");
   const modelTitle = models10.querySelector(".model__title");
   const modelMemoryFirst = models10.querySelector(".model__memory_first");
   const modelPriceFirst = models10.querySelector(".model__price_first");
@@ -22,7 +22,12 @@ function createModel10({
   const modelPriceSecond = models10.querySelector(".model__price_second");
 
   modelImage.setAttribute("src", image);
-  modelColors.style.backgroundColor = colors;
+  colors.forEach((color) => {
+    const colorDiv = document.createElement("div");
+    colorDiv.classList.add("model__color");
+    colorDiv.style.backgroundColor = color;
+    modelColors.appendChild(colorDiv);
+  });
   modelTitle.textContent = title;
   modelMemoryFirst.textContent = memory_first;
   modelPriceFirst.textContent = price_first;
