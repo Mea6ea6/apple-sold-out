@@ -565,25 +565,75 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .header {
+    height: 100px;
+  }
   .header__burger {
     display: block;
+    background: none;
   }
   .header__nav-panel {
     display: none;
   }
-
+  .header__link-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .header__link-text{
+    display: none;
+  }
+  .models__buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    gap: 6px;
+    text-decoration: none;
+  }
+  .models__button {
+    background: #e2e2e2;
+    border-radius: 8px;
+    height: 40px;
+  }
+  .models__button-active {
+    color: #fff;
+    background-color: #2853FF;
+  }
+  .models__button-active::after {
+    display: none;
+  }
   .models__list {
     grid-template-columns: repeat(2, 160px);
-    gap: 60px;
+    gap: 40px;
   }
   .model__image {
     width: 120px;
     height: 160px;
   }
-
+  .services__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services__title {
+    font-size: 24px;
+    width: 330px;
+  }
   .services__list {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 45px 5%;
+  }
+  .faq__container {
+    max-width: 100%;
+  }
+  .faq__items {
+    width: auto;
+    padding-left: 40px;
+    overflow-x: scroll;
+  }
+  .faq__item {
+    margin-right: 20px;
+  }
+  .faq__buttons {
+    display: none;
   }
 }

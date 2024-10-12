@@ -17,3 +17,8 @@
         --max-width: 480px;
     }
 } 
+@media screen and (max-width: 540px) {
+    :root {
+        --max-width: 320px;
+    }
+} 
