@@ -600,6 +600,16 @@
   .models__button-active::after {
     display: none;
   }
+  .models__button:hover {
+    color: #000;
+  }
+  .models__button:hover::after {
+    opacity: 0;
+  }
+  .models__button-active:hover {
+    color: #fff;
+  }
+
   .models__list {
     grid-template-columns: repeat(2, 160px);
     gap: 40px;
@@ -608,18 +618,14 @@
     width: 120px;
     height: 160px;
   }
-  .services__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .services__title {
+    margin:  0 auto 100px;
     font-size: 24px;
     width: 330px;
   }
   .services__list {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 45px 5%;
   }
   .faq__container {
@@ -629,11 +635,26 @@
     width: auto;
     padding-left: 40px;
     overflow-x: scroll;
+    scrollbar-width: none;
   }
   .faq__item {
     margin-right: 20px;
   }
   .faq__buttons {
     display: none;
+  }
+  .footer__container {
+    padding: 40px 0;
+  }
+  .footer__links {
+    width: 100%;
+  }
+  .footer__anchors {
+    display: none;
+  }
+  .footer__links {
+    height: 20px;
+    gap: auto;
+    justify-content: space-between;
   }
 }
