@@ -2,6 +2,18 @@
     --font: 'Montserrat';
     --max-width: 1140px;
     --hover-transition: 0.4s;
-    --transition: 0.8s;
+    --common-transition: 0.8s;
     --hover-opacity: 0.6;
+    --common-opacity: 0.4;
 }
+
+@media screen and (max-width: 1180px) {
+    :root {
+        --max-width: 768px;
+    }
+}
+@media screen and (max-width: 800px) {
+    :root {
+        --max-width: 480px;
+    }
+} 
