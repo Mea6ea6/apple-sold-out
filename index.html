@@ -13,17 +13,30 @@
     
     <div class="page">
 
+        <div class="burger__menu">
+            <div class="burger__container">
+                <button class="burger__close-btn">
+                    <img src="./images/header/__burger-close.svg" alt="Close" class="burger__icon">
+                </button>
+                <nav class="nav-panel">
+                    <a class="nav-link" href="#models">Модели</a>
+                    <a class="nav-link" href="#services">Услуги</a>
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </nav>
+            </div>
+        </div>
+
         <header class="header">
-            <button class="header__burger">
-                <img src="./images/header/__burger.svg" alt="Menu" class="header__burger-icon">
+            <button class="burger">
+                <img src="./images/header/__burger.svg" alt="Menu" class="burger__icon">
             </button>
             <a class="header__logo" href="#main">AppleSoldOut</a>
-            <nav class="header__nav-panel">
-                <a class="header__nav-link" href="#models">Модели</a>
-                <a class="header__nav-link" href="#services">Услуги</a>
-                <a class="header__nav-link" href="#faq">FAQ</a>
+            <nav class="nav-panel">
+                <a class="nav-link" href="#models">Модели</a>
+                <a class="nav-link" href="#services">Услуги</a>
+                <a class="nav-link" href="#faq">FAQ</a>
             </nav>
-            <a class="header__link" href="#">
+            <a class="header__link" href="https://t.me/sharkavito">
                 <img class="header__link-icon" src="./images/header/__telegram.svg" alt="Tel.:">
                 <p class="header__link-text">Telegram</p>
             </a>
@@ -43,7 +56,7 @@
 
             <div class="models" id="models">
                 <div class="models__container">
-                    <h2 class="models__title">Модели</h2>
+                    <h2 class="section-title">Модели</h2>
                     <div class="models__block">
                         <div class="models__buttons">
                             <button class="models__button models__button-active">iPhone 15</button>
@@ -185,7 +198,7 @@
 
             <div class="services" id="services">
                 <div class="services__container">
-                    <h2 class="services__title">AppleSoldOut — сервис продажи и обмена старой техники Apple. Как мы работаем и какие услуги предоставляем?</h2>
+                    <h2 class="section-title">AppleSoldOut — сервис продажи и обмена старой техники Apple. Как мы работаем и какие услуги предоставляем?</h2>
                     <ul class="services__list">
                         <li class="service">
                             <p class="service__number">1.</p>
@@ -205,7 +218,7 @@
                         <li class="service">
                             <p class="service__number">4.</p>
                             <h2 class="service__title">📞 Связь и контакты</h2>
-                            <p class="service__description">Уточнить все детали или связаться с нами для обмена вы можете в нашем <a class="service__link" href="#">телеграме</a></p>
+                            <p class="service__description">Уточнить все детали или связаться с нами для обмена вы можете в нашем <a class="service__link" href="https://t.me/sharkavito">телеграме</a></p>
                         </li>
                         <li class="service">
                             <p class="service__number">5.</p>
@@ -218,7 +231,7 @@
 
             <div class="faq" id="faq">
                 <div class="faq__container">
-                    <h2 class="faq__title">FAQ</h2>
+                    <h2 class="section-title">FAQ</h2>
                     <ul class="faq__items">
                         <li class="faq__item">
                             <img class="faq__icon" src="./images/faq/__map-location.svg" alt="icon">
@@ -265,7 +278,7 @@
             <div class="footer__container">
                 <div class="footer__links">
                     <a class="footer__link" href="#main">AppleSoldOut</a>
-                    <a class="footer__link" href="#">
+                    <a class="footer__link" href="https://t.me/sharkavito">
                         <img class="footer__link-icon" src="./images/footer/__telegram.svg" alt="Tel.:">Telegram
                     </a>
                 </div>
@@ -280,12 +293,15 @@
     </div>
 
 </body>
-<script src="./utils/constants.js"></script>
 <script src="./components/Models15.js"></script>
 <script src="./components/Models14.js"></script>
 <script src="./components/Models13.js"></script>
 <script src="./components/Models12.js"></script>
 <script src="./components/Models11.js"></script>
 <script src="./components/Models10.js"></script>
+<script src="./components/Burger.js"></script>
+<script src="./components/Tabs.js"></script>
+<script src="./components/Slider.js"></script>
+<script src="./utils/constants.js"></script>
 <script src="pages/main.js"></script>
 </html>
