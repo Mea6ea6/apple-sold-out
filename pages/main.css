@@ -385,6 +385,11 @@
   grid-template-rows: repeat(1, 240px);
   gap: 30px;
   transition: var(--common-transition);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.faq__items::-webkit-scrollbar {
+  display: none;
 }
 .faq__item {
   background: #2e2e2e;
@@ -691,12 +696,7 @@
     width: auto;
     padding: 0 40px;
     overflow-x: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
     gap: 24px;
-  }
-  .faq__items::-webkit-scrollbar {
-    display: none;
   }
   .faq__buttons {
     display: none;
