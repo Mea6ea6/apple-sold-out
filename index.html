@@ -59,14 +59,36 @@
                     <h2 class="section-title">Модели</h2>
                     <div class="models__block">
                         <div class="models__buttons">
-                            <button class="models__button models__button-active">iPhone 15</button>
+                            <button class="models__button models__button-active">iPhone 16</button>
+                            <button class="models__button">iPhone 15</button>
                             <button class="models__button">iPhone 14</button>
                             <button class="models__button">iPhone 13</button>
                             <button class="models__button">iPhone 12</button>
                             <button class="models__button">iPhone 11</button>
                             <button class="models__button">iPhone X</button>
                         </div>
-                        <ul class="models__list models__list_xv models__list-active">
+                        <ul class="models__list models__list_xvi models__list-active">
+                            <template id="model-16-template">
+                                <li class="model">
+                                    <img class="model__image" src="" alt="iPhone 16">
+                                    <div class="model__colors">
+                                    </div>
+                                    <p class="model__title"></p>
+                                    <p class="model__subtitle">Расценки:</p>
+                                    <div class="model__text">
+                                        <div class="model__text-box">
+                                            <p class="model__memory model__memory_first"></p>
+                                            <p class="model__price model__price_first"></p>
+                                        </div>
+                                        <div class="model__text-box">
+                                            <p class="model__memory model__memory_second"></p>
+                                            <p class="model__price model__price_second"></p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </template>
+                        </ul>
+                        <ul class="models__list models__list_xv">
                             <template id="model-15-template">
                                 <li class="model">
                                     <img class="model__image" src="" alt="iPhone 15">
@@ -90,7 +112,7 @@
                         <ul class="models__list models__list_xiv">
                             <template id="model-14-template">
                                 <li class="model">
-                                    <img class="model__image" src="" alt="iPhone 15">
+                                    <img class="model__image" src="" alt="iPhone 14">
                                     <div class="model__colors">
                                     </div>
                                     <p class="model__title"></p>
@@ -111,7 +133,7 @@
                         <ul class="models__list models__list_xiii">
                             <template id="model-13-template">
                                 <li class="model">
-                                    <img class="model__image" src="" alt="iPhone 15">
+                                    <img class="model__image" src="" alt="iPhone 13">
                                     <div class="model__colors">
                                     </div>
                                     <p class="model__title"></p>
@@ -132,7 +154,7 @@
                         <ul class="models__list models__list_xii">
                             <template id="model-12-template">
                                 <li class="model">
-                                    <img class="model__image" src="" alt="iPhone 15">
+                                    <img class="model__image" src="" alt="iPhone 12">
                                     <div class="model__colors">
                                     </div>
                                     <p class="model__title"></p>
@@ -153,7 +175,7 @@
                         <ul class="models__list models__list_xi">
                             <template id="model-11-template">
                                 <li class="model">
-                                    <img class="model__image" src="" alt="iPhone 15">
+                                    <img class="model__image" src="" alt="iPhone 11">
                                     <div class="model__colors">
                                     </div>
                                     <p class="model__title"></p>
@@ -174,7 +196,7 @@
                         <ul class="models__list models__list_x">
                             <template id="model-10-template">
                                 <li class="model">
-                                    <img class="model__image" src="" alt="iPhone 15">
+                                    <img class="model__image" src="" alt="iPhone 10">
                                     <div class="model__colors">
                                     </div>
                                     <p class="model__title"></p>
@@ -293,6 +315,7 @@
     </div>
 
 </body>
+<script src="./components/Models16.js"></script>
 <script src="./components/Models15.js"></script>
 <script src="./components/Models14.js"></script>
 <script src="./components/Models13.js"></script>

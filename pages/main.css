@@ -567,6 +567,9 @@
     height: 320px;
   }
 
+  .models__buttons {
+    gap: 24px;
+  }
   .models__list {
     grid-template-columns: repeat(4, 140px);
     gap: 40px;
@@ -619,7 +622,7 @@
     width: 24px;
     height: 24px;
   }
-  .header__link-text{
+  .header__link-text {
     display: none;
   }
 
@@ -644,11 +647,11 @@
   }
   .models__button:hover {
     color: #fff;
-    background-color: #2853FF;
+    background-color: #2853ff;
   }
   .models__button-active {
     color: #fff;
-    background-color: #2853FF;
+    background-color: #2853ff;
   }
   .models__list {
     grid-template-columns: repeat(2, 160px);
@@ -666,7 +669,7 @@
   }
 
   .services .section-title {
-    margin:  0 auto 100px 30px;
+    margin: 0 auto 100px 30px;
     max-width: 420px;
   }
   .services__list {
@@ -689,7 +692,11 @@
     padding: 0 40px;
     overflow-x: scroll;
     scrollbar-width: none;
+    -ms-overflow-style: none;
     gap: 24px;
+  }
+  .faq__items::-webkit-scrollbar {
+    display: none;
   }
   .faq__buttons {
     display: none;
@@ -714,7 +721,7 @@
 }
 @media screen and (max-width: 540px) {
   .header {
-    padding: 0 20px;    
+    padding: 0 20px;
   }
 
   .main {
@@ -774,7 +781,7 @@
   }
 
   .services .section-title {
-    margin:  0 0 100px 30px;
+    margin: 0 0 100px 30px;
     max-width: 280px;
   }
   .services__list {
@@ -813,4 +820,4 @@
   .footer__container {
     padding: 40px 20px;
   }
-} 
+}

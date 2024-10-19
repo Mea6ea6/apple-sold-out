@@ -1,3 +1,6 @@
+initialIPhones16.forEach(function (item) {
+  renderModels16(item);
+});
 initialIPhones15.forEach(function (item) {
   renderModels15(item);
 });
