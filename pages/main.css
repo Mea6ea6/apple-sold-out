@@ -503,7 +503,7 @@
   .header__logo:hover {
     opacity: var(--hover-opacity);
   }
-  .header__nav-link:hover {
+  .nav-link:hover {
     opacity: var(--hover-opacity);
   }
   .header__link:hover {
@@ -534,7 +534,7 @@
   .header__logo:hover {
     opacity: var(--hover-opacity);
   }
-  .header__nav-link:hover {
+  .nav-link:hover {
     opacity: var(--hover-opacity);
   }
   .header__link:hover {
